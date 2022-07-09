@@ -18,7 +18,6 @@ async function lerDados() {
         });
 
         reader.on("close", () => {
-            // 👇 chegou ao final do arquivo
             resolve(lista)
         });
 
